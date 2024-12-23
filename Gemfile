@@ -1,8 +1,5 @@
 source 'https://rubygems.org'
 
-# Add jekyll-scholar with explicit group syntax
-gem 'jekyll-scholar', group: :jekyll_plugins
-
 group :jekyll_plugins do
     gem 'jekyll'
     gem 'jekyll-archives'
@@ -12,7 +9,7 @@ group :jekyll_plugins do
     gem 'jekyll-imagemagick'
     gem 'jekyll-minifier'
     gem 'jekyll-paginate-v2'
-    # gem 'jekyll-scholar'
+    gem 'jekyll-scholar'
     gem 'jekyll-sitemap'
     gem 'jekyll-target-blank'
     gem 'jekyll-twitter-plugin'

@@ -11,8 +11,7 @@ profile:
   address: > 
 
 news: true  # includes a list of news items
-selected_papers: false # includes a list of papers marked as "selected={true}"
-papers: true # includes a list of all papers
+selected_papers: true # includes a list of papers marked as "selected={true}"
 education: true # includes a list of education items
 experience: true # includes a list of experience items
 honors: true # includes a list of experience items

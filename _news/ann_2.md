@@ -1,7 +1,7 @@
 ---
 layout: post
-date: 2022-07-04
+date: 2024-06-17
 inline: true
 ---
 
-📚 A paper on active domain adaptation is accepted to [ECCV 2022](https://eccv2022.ecva.net/).
+🇺🇸 I started my Summer session at [University of California, Berkeley](https://www.berkeley.edu/)! Can't wait to meet you!

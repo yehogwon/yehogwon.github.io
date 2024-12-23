@@ -241,7 +241,7 @@ display_tags: ['research', 'formatting', 'images', 'links', 'math', 'code'] # th
 # Jekyll Scholar
 # -----------------------------------------------------------------------------
 
-scholar:
+jekyll-scholar:
 
   first_name: Yeho
   last_name: Gwon

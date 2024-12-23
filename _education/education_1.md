@@ -1,8 +1,8 @@
 ---
 layout: post
-start_end: "Mar, 2014 - Sep, 2018"
+start_end: "Feb, 2022 - Aug, 2025"
 inline: true
 ---
 
-[Daegu Gyeongbuk Institute of Science and Technology (DGIST)](https://dgist.ac.kr/en/), Daegu, South Korea \
-B.S. in School of Undergraduate Studies
+[Pohang University of Science and Technology (POSTECH)](https://postech.ac.kr/eng/), Pohang, South Korea \
+B.S. in Computer Science and Engineering

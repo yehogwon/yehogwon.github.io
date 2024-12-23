@@ -6,7 +6,7 @@ subtitle:
 
 profile:
   align: right
-  image: prof_sehyun_v4.jpeg
+  image: profile.png # assets/img/
   image_cicular: false # crops the image to make it circular
   address: > 
 
@@ -19,11 +19,8 @@ services: true # includes a list of services items
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a Ph.D. student at the [POSTECH Computer Vision Lab](http://cvlab.postech.ac.kr/lab/), under the guidance of Prof. [Suha Kwak](https://suhakwak.github.io/), within the [Department of Computer Science Engineering](https://cse.postech.ac.kr/) at [POSTECH](https://postech.ac.kr/eng/).
+I am an undergraduate student at POSTECH, South Korea, majoring in Computer Science and Engineering. I am also working as an intern at the [Computer Vision Lab](https://cvlab.postech.ac.kr/), POSTECH, under the supervision of Prof. [Suha Kwak](https://suhakwak.github.io/).
 
-My research interest lies in various aspects of machine learning and computer vision including, but not limited to, active learning, domain adaptation, debiasing and its applications.
-I recently interested in using active learning to address challenges like data shortages, spurious correlations, and data imbalances.
-<!-- For detailed information on my research interests, please see [my post](https://sehyun03.github.io/blog/2023/research-interest/). -->
+My research interests include computer vision and machine learning. I am currently working on reducing the annotation cost for image classification tasks by leveraging active learning and using hand-crafted query strategies. I am also interested in referring image segmentation.
 
-I'm actively seeking opportunities for meaningful collaborations and internships.
-If you find my work interesting or have any questions, please don't hesitate to reach out.
+I am looking for internships and research opportunities in the field of machine learning and computer vision. If you are interested in collaborating with me, please feel free to reach out to me!

@@ -26,4 +26,4 @@ My research interests include computer vision and machine learning. I am current
 
 I am looking for internships and research opportunities in the field of machine learning and computer vision. If you are interested in collaborating with me, please feel free to reach out to me!
 
-email: yeho.gwon@postech.ac.kr
+Email: [yeho.gwon@postech.ac.kr](mailto:yeho.gwon@postech.ac.kr)

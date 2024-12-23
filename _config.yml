@@ -243,8 +243,8 @@ display_tags: ['research', 'formatting', 'images', 'links', 'math', 'code'] # th
 
 scholar:
 
+  first_name: Yeho
   last_name: Gwon
-  first_name: [Yeho, G.]
 
   style: apa
   locale: en

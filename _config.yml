@@ -165,7 +165,6 @@ education_limit: 5
 # -----------------------------------------------------------------------------
 
 # Markdown and syntax highlight
-plugins_dir: [jekyll-scholar]
 markdown: kramdown
 highlighter: rouge
 kramdown:

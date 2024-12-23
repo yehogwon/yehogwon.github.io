@@ -25,3 +25,5 @@ I am an undergraduate student at POSTECH, South Korea, majoring in Computer Scie
 My research interests include computer vision and machine learning. I am currently working on reducing the annotation cost for image classification tasks by leveraging active learning and using hand-crafted query strategies. I am also interested in referring image segmentation.
 
 I am looking for internships and research opportunities in the field of machine learning and computer vision. If you are interested in collaborating with me, please feel free to reach out to me!
+
+email: yeho.gwon@postech.ac.kr

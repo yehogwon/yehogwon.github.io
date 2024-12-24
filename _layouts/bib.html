@@ -24,6 +24,12 @@
               {%- endif -%}
           </div>
 
+          <!-- TODO: Support more than two first-coauthors by using -->
+          <!--       `entry.firsts` that indicates the number of -->
+          <!--       first-coauthors. You can implement a feature that -->
+          <!--       add a trailing asterisk at the end of each of the -->
+          <!--       `entry.firsts` first-coauthors. -->
+
         <!-- Entry bib key -->
         <div id="{{entry.key}}" class="col-sm-8">
         {% if entry.type == "thesis" -%}

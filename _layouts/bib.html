@@ -56,34 +56,27 @@
               {%- endfor -%}
             {%- endif -%}
             
-            {%- if forloop.length == 1 -%}
-              {%- if author_is_self %}
+            {%- capture author_name -%}
+              {%- if author_is_self -%}
                 <em>{{author.first}} {{author.last}}</em>
               {%- else -%}
-                {{author.first}} {{author.last}}
+                {%- if coauthor_url -%}
+                  <a style="text-decoration: none" href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>
+                {%- else -%}
+                  {{author.first}} {{author.last}}
+                {%- endif -%}
               {%- endif -%}
+              {%- if entry.equal_contrib and forloop.index <= 2 -%}*{%- endif -%}
+            {%- endcapture -%}
+
+            {%- if forloop.length == 1 -%}
+              {{author_name}}
             {%- else -%}
               {%- unless forloop.last -%}
-                {% if author_is_self %}
-                  <em>{{author.first}} {{author.last}}</em>,&nbsp;
-                {%- else -%}
-                  {% if coauthor_url -%}
-                    <a sstyle="text-decoration: none" href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>,&nbsp;
-                  {%- else -%}
-                    {{author.first}} {{author.last}},&nbsp;
-                  {%- endif -%}
-                {%- endif -%}
+                {{author_name}},&nbsp;
               {%- else -%}
                 {%- if author_array_limit == author_array_size %} and {% endif %}
-                {% if author_is_self -%}
-                  <em>{{author.first}} {{author.last}}</em>
-                {% else -%}
-                  {%- if coauthor_url -%}
-                    <a sstyle="text-decoration: none" href="{{coauthor_url}}">{{author.first}} {{author.last}}</a>
-                  {% else -%}
-                    {{author.first}} {{author.last}}
-                  {%- endif -%}
-                {%- endif -%}
+                {{author_name}}
               {%- endunless -%}
             {%- endif -%}
           {%- endfor %}

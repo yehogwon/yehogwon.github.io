@@ -1,0 +1,24 @@
+---
+---
+
+@string{CVPR = {{IEEE/CVF} Conference on Computer Vision and Pattern Recognition (<b>CVPR</b>)}}
+@string{ECCV = {European Conference on Computer Vision (<b>ECCV</b>)}}
+@string{ICCV = {International Conference on Computer Vision (<b>ICCV</b>)}}
+@string{NEURIPS = {Conference on Neural Information Processing Systems (<b>NeurIPS</b>)}}
+@string{IJCV = {International Journal of Computer Vision (<b>IJCV</b>)}}
+@string{ICRA = {IEEE International Conference on Robotics and Automation (<b>ICRA</b>)}}
+@string{ICML = {International Conference on Machine Learning (<b>ICML</b>)}}
+@string{arXiv = {arXiv preprint}}
+
+@inproceedings{gwon2025active,
+  title={Enhancing Cost Efficiency in Active Learning with Candidate Set Query},
+  author={Gwon, Yeho and Hwang, Sehyun and Kim, Hoyoung and Ok, Jungseul and Kwak, Suha},
+  abstract={This paper introduces a cost-efficient active learning (AL) framework for classification, featuring a novel query design called candidate set query. Unlike traditional AL queries requiring the oracle to examine all possible classes, our method narrows down the set of candidate classes likely to include the ground-truth class, significantly reducing the search space and labeling cost. Moreover, we leverage conformal prediction to dynamically generate small yet reliable candidate sets, adapting to model enhancement over successive AL rounds. To this end, we introduce an acquisition function designed to prioritize data points that offer high information gain at lower cost. Empirical evaluations on CIFAR-10, CIFAR-100, and ImageNet64x64 demonstrate the effectiveness and scalability of our framework. Notably, it reduces labeling cost by 42% on ImageNet64x64.},
+  booktitle={Under review},
+  year={2025},
+  equal_contrib={true},
+  selected={false},
+  img_path={assets/img/publication_preview/gwon2025active.jpg},
+  code={https://github.com/yehogwon/topk-al},
+  project={projects/csq}
+}

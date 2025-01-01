@@ -6,7 +6,7 @@ subtitle:
 
 profile:
   align: right
-  image: profile_5.jpeg # assets/img/
+  image: profile_6.jpg # assets/img/
   image_cicular: false # crops the image to make it circular
   address: > 
 

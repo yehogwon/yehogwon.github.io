@@ -75,4 +75,11 @@ $(document).ready(function() {
 
     bulmaSlider.attach();
 
+    // Initialize medium-zoom
+    mediumZoom('.publication-teaser img', {
+      margin: 24,
+      background: 'rgba(0,0,0,0.9)',
+      scrollOffset: 0,
+    });
+
 })

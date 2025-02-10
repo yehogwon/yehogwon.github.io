@@ -23,10 +23,6 @@ body {
   font-family: 'Google Sans', sans-serif;
 }
 
-
-.publication-title {
-}
-
 .publication-banner {
   max-height: parent;
 
@@ -38,9 +34,6 @@ body {
   top: auto;
   transform: none;
   object-fit: fit;
-}
-
-.publication-header .hero-body {
 }
 
 .publication-title {
@@ -135,9 +128,6 @@ body {
   border-radius: 5px;
 }
 
-.interpolation-video-column {
-}
-
 .interpolation-panel .slider {
   margin: 0 !important;
 }
@@ -151,4 +141,52 @@ body {
 }
 #interpolation-image-wrapper img {
   border-radius: 5px;
+}
+
+/* Add these new styles */
+.container.is-max-desktop {
+  max-width: 45% !important;
+}
+
+.columns.is-centered {
+  margin: 0 auto;
+}
+
+/* Make images responsive within the half-width container */
+.publication-teaser img {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid rgba(0, 0, 0, 0.05);  /* Black border with 0.8 opacity */
+  padding: 0.4rem;
+
+}
+
+/* Add this new style for captions */
+.caption {
+  text-align: left;
+}
+
+.caption p {
+  text-align: left;
+  margin-bottom: 1.5em;
+}
+
+.figure-label {
+  font-size: 1.1em;
+  font-weight: bold;
+}
+
+/* Reduce padding between sections */
+.section {
+  padding: 1.0rem 1.5rem;  /* Default is 3rem 1.5rem */
+}
+
+/* Subsection styling */
+.subsection-title {
+  text-align: left;
+  font-size: 1.5rem;  /* Slightly smaller than section title (is-3 is 2rem) */
+  font-weight: 600;
+  margin-bottom: 1rem;
+  font-family: 'Google Sans', sans-serif;
+  padding-top: 1rem;
 }

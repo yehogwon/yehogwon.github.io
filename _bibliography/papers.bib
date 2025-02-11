@@ -10,15 +10,17 @@
 @string{ICML = {International Conference on Machine Learning (<b>ICML</b>)}}
 @string{arXiv = {arXiv preprint}}
 
-@inproceedings{gwon2025active,
-  title={Enhancing Cost Efficiency in Active Learning with Candidate Set Query},
-  author={Gwon, Yeho and Hwang, Sehyun and Kim, Hoyoung and Ok, Jungseul and Kwak, Suha},
-  abstract={This paper introduces a cost-efficient active learning (AL) framework for classification, featuring a novel query design called candidate set query. Unlike traditional AL queries requiring the oracle to examine all possible classes, our method narrows down the set of candidate classes likely to include the ground-truth class, significantly reducing the search space and labeling cost. Moreover, we leverage conformal prediction to dynamically generate small yet reliable candidate sets, adapting to model enhancement over successive AL rounds. To this end, we introduce an acquisition function designed to prioritize data points that offer high information gain at lower cost. Empirical evaluations on CIFAR-10, CIFAR-100, and ImageNet64x64 demonstrate the effectiveness and scalability of our framework. Notably, it reduces labeling cost by 42% on ImageNet64x64.},
-  booktitle={Under review},
-  year={2025},
-  equal_contrib={true},
-  selected={false},
-  img_path={assets/img/publication_preview/gwon2025active.jpg},
-  code={https://github.com/yehogwon/topk-al},
-  project={projects/csq}
+@misc{gwon2025enhancingcostefficiencyactive,
+    title={Enhancing Cost Efficiency in Active Learning with Candidate Set Query}, 
+    author={Yeho Gwon and Sehyun Hwang and Hoyoung Kim and Jungseul Ok and Suha Kwak},
+    year={2025},
+    eprint={2502.06209},
+    archivePrefix={arXiv},
+    primaryClass={cs.LG},
+    url={https://arxiv.org/abs/2502.06209}, 
+    equal_contrib={true},
+    selected={true},
+    img_path={assets/img/publication_preview/gwon2025enhancing.png},
+    code={https://github.com/yehogwon/topk-al},
+    project={csq}
 }

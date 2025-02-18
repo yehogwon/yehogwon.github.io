@@ -81,7 +81,7 @@
               {%- unless forloop.last -%}
                 {{author_name}},&nbsp;
               {%- else -%}
-                {%- if author_array_limit == author_array_size %} and {% endif %}
+                {%- if author_array_limit == author_array_size %}and {% endif %}
                 {{author_name}}
               {%- endunless -%}
             {%- endif -%}

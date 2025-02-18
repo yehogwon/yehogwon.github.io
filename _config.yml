@@ -69,8 +69,9 @@ github_username: yehogwon # your GitHub user name
 gitlab_username: # your GitLab user name
 twitter_username: # your Twitter handle
 linkedin_username: yehogwon # your LinkedIn user name
-scholar_userid:  # your Google Scholar ID # TODO: add Google Scholar ID
-orcid_id: 0009-0000-3357-5140 # your ORCID ID
+scholar_userid: l17sgysAAAAJ # your Google Scholar ID
+# orcid_id: 0009-0000-3357-5140 # your ORCID ID
+orcid_id:  # your ORCID ID
 medium_username: # your Medium username
 quora_username: # your Quora username
 publons_id: # your ID on Publons

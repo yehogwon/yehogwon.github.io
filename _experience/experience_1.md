@@ -1,6 +1,6 @@
 ---
 layout: post
-start_end: "Feb, 2023 - Sep, 2025"
+start_end: "Feb, 2023 - Aug, 2025"
 inline: true
 ---
 

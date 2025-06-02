@@ -3,6 +3,11 @@ layout: post
 inline: true
 ---
 
+**Best Research Project Award (Jun, 2025)**
+- Winner ($350)
+- Ranked first among 90 undergraduate CSE research projects.
+- From the department of Computer Science and Engineering at POSTECH.
+
 **Park Tae-joon Alumni Scholarship (Sep, 2024)**
 - Winner ($2,300)
 - From POSTECH Alumni Foundation.
@@ -13,6 +18,7 @@ inline: true
 
 **Premium Outbound Scholarship (Jul, 2024)**
 - Receiver ($18,000)
+- Selected as one of 4 distinguished POSTECH students.
 - From POSTECH.
 
 **National Science & Technology Scholarship (May, 2024)**

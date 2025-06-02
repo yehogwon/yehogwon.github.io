@@ -19,10 +19,13 @@ services: true # includes a list of services items
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am an undergraduate student at POSTECH, South Korea, majoring in Computer Science and Engineering. I am also working as a research intern at [Computer Vision Lab](https://cvlab.postech.ac.kr/), POSTECH, under the supervision of Prof. [Suha Kwak](https://suhakwak.github.io/).
+I am an upcoming M.S. student at POSTECH, South Korea, and I'm fortunate to be working with Prof. [Suha Kwak](https://suhakwak.github.io/), who is advising my current research internship as well.
 
-My research interests include computer vision and machine learning. I have worked on reducing the annotation cost for image classification tasks by leveraging active learning and using hand-crafted query strategies. Currently, I am interested in vision foundation models (e.g., SAM) and their robustness and generalization beyond the 2D space.
+My ultimate goal is enable machines to understand the world just like humans do. To achieve this, I have participated in reearch projects on reducing annotation costs for image classification by leveraging active learning and improving the robustness of the Segment Anything Model (SAM) for its real-world applicability. 
 
-I am looking for internships and research opportunities in the field of machine learning and computer vision. If you are interested in collaborating with me, please feel free to reach out to me!
+
+My ultimate goal is to enable machines to understand the world just like humans do. To achieve this, I have participated in research projects on reducing annotation costs for image classification by leveraging active learning and improving the robustness of the Segment Anything Model (SAM) for its real-world applicability.
+
+Having served as both a first and second author on research projects, I am open to research collaboration opportunities. If you find my work interesting, please feel free to reach out to me!
 
 Email: [yeho.gwon@postech.ac.kr](mailto:yeho.gwon@postech.ac.kr)

@@ -250,7 +250,77 @@ Visiting Summer Sessions Student
           <div class="publications">
             <h2>Publications</h2>
             <p>* indicates equal contribution.</p>
-            <ol class="bibliography"><li>
+            <ol class="bibliography">
+<li>
+<!-- _layouts/bib.html -->
+      <!-- <div class="row">
+        <div class="col-sm-2 abbr"><abbr class="badge">arXiv</abbr></div> -->
+        <div class="row">
+          <div class="col-sm-4">
+<figure>
+
+  <picture>
+    
+    <source class="responsive-img-srcset" media="(max-width: 480px)" srcset="/assets/img/publication_preview/lee2025garasam-480.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 800px)" srcset="/assets/img/publication_preview/lee2025garasam-800.webp"></source>
+    <source class="responsive-img-srcset" media="(max-width: 1400px)" srcset="/assets/img/publication_preview/lee2025garasam-1400.webp"></source>
+    
+
+    <!-- Fallback to the original file -->
+    <img src="/assets/img/publication_preview/lee2025garasam.png" class="img-fluid rounded z-depth-1" width="auto" height="auto" data-zoomable onerror="this.onerror=null; $('.responsive-img-srcset').remove();">
+
+  </picture>
+
+</figure>
+</div>
+
+          <!-- TODO: Support more than two first-coauthors by using -->
+          <!--       `entry.firsts` that indicates the number of -->
+          <!--       first-coauthors. You can implement a feature that -->
+          <!--       add a trailing asterisk at the end of each of the -->
+          <!--       `entry.firsts` first-coauthors. -->
+
+        <!-- Entry bib key -->
+        <div id="lee2025garasam" class="col-sm-8">
+        
+          <!-- Title -->
+          <div class="title">GaRA-SAM: Robustifying Segment Anything Model with Gated-Rank Adaptation</div>
+          <!-- Author -->
+          <div class="author">
+          Sohyun Lee, <em>Yeho Gwon</em>, Lukas Hoyer, and 
+                Suha Kwak
+
+          
+
+          <!--  -->
+          
+          </div>
+
+
+          <!-- Journal/Book title and date -->
+          <div class="periodical">
+            , 2025
+          </div>
+
+          <!-- Additional info -->
+          
+
+          <!-- Additional info2 -->
+          
+        
+          <!-- Links/Buttons -->
+          <div class="links">
+            <a class="abstract btn btn-sm z-depth-0" role="button">Abstract</a>
+          </div>
+
+          <!-- Hidden abstract block -->
+          <div class="abstract hidden">
+            <p>Improving robustness of the Segment Anything Model (SAM) to input degradations is critical for its deployment in high-stakes applications such as autonomous driving and robotics. Our approach to this challenge prioritizes three key aspects: first, parameter efficiency to maintain the inherent generalization capability of SAM; second, fine-grained and input-aware robustification to precisely address the input corruption; and third, adherence to standard training protocols for ease of training. To this end, we propose gated-rank adaptation (GaRA). GaRA introduces lightweight adapters into intermediate layers of the frozen SAM, where each adapter dynamically adjusts the effective rank of its weight matrix based on the input by selectively activating (rank-1) components of the matrix using a learned gating module. This adjustment enables fine-grained and input-aware robustification without compromising the generalization capability of SAM. Our model, GaRA-SAM, significantly outperforms prior work on all robust segmentation benchmarks. In particular, it surpasses the previous best IoU score by up to 21.3%p on ACDC, a challenging real corrupted image dataset.</p>
+          </div>
+        </div>
+      </div>
+</li>
+<li>
 <!-- _layouts/bib.html -->
       <!-- <div class="row">
         <div class="col-sm-2 abbr"><abbr class="badge">arXiv</abbr></div> -->
@@ -321,7 +391,8 @@ Visiting Summer Sessions Student
           </div>
         </div>
       </div>
-</li></ol>
+</li>
+</ol>
           </div>
 
           

@@ -19,7 +19,7 @@ services: true # includes a list of services items
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am an upcoming M.S. student at POSTECH, South Korea, and I'm fortunate to be working with Prof. [Suha Kwak](https://suhakwak.github.io/), who is advising my current research internship as well.
+I am a M.S. student at POSTECH, South Korea, and I'm fortunate to be advised by Prof. [Suha Kwak](https://suhakwak.github.io/).
 
 My ultimate goal is to enable machines to understand the world just like humans do. To achieve this, I have been focusing on dataset construction for model training and robustness for real-world applications.
 

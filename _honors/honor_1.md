@@ -3,6 +3,11 @@ layout: post
 inline: true
 ---
 
+**POSTECHIAN Fellowship (Oct, 2025)**
+- Winner ($2,300)
+- As one of the two top fresh graduates.
+- From the department of Computer Science and Engineering at POSTECH.
+
 **Best Research Project Award (Jun, 2025)**
 - Winner ($350)
 - Ranked first among 90 undergraduate CSE research projects.

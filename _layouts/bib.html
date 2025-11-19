@@ -79,7 +79,11 @@
               {{author_name}}
             {%- else -%}
               {%- unless forloop.last -%}
-                {{author_name}},&nbsp;
+                {%- if forloop.index == forloop.length | minus: 1 -%}
+                  {{author_name}}&nbsp;
+                {%- else -%}
+                  {{author_name}},&nbsp;
+                {%- endif -%}
               {%- else -%}
                 {%- if author_array_limit == author_array_size %}and {% endif %}
                 {{author_name}}

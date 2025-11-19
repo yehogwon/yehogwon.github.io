@@ -4,7 +4,7 @@ inline: true
 ---
 
 **POSTECHIAN Fellowship (Nov, 2025)**
-- Recipient ($4,600)
+- Recipient ($2,300)
 - Recognized as one of the two top first-year graduate students in CSE.
 - From the department of Computer Science and Engineering at POSTECH.
 
